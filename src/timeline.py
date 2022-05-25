@@ -17,7 +17,7 @@ class Timeline():
         
         # loading dataset
         self.dataset = Dataset_toi()
-        self.dataset.load_dataset(dataset_dir='./data')
+        self.dataset.load_dataset(dataset_dir='../data')
         
         # query based headline filter
         self.filter = Top_matches()
